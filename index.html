@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAPIENS | Gestión de proyectos académicos</title>
+  <link rel="icon" href="assets/img/isotipo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;1,600;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#inicio"><img class="logo" src="assets/img/logo-completo.png" alt="SAPIENS"></a>
+    <nav class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="acerca.html">Acerca de SAPIENS</a>
+      <a href="#roles">Roles</a>
+      <a href="#ayuda">Ayuda</a>
+    </nav>
+    <div class="botones">
+      <a href="#login" class="btn btn-claro">Iniciar sesión</a>
+      <a href="registro.html" class="btn btn-morado">Registrarse</a>
+    </div>
+  </header>
+
+  <main class="hero" id="inicio">
+    <div class="hero-texto">
+      <small>Ciclo escolar 2026-2</small>
+      <h1>Gestiona tus proyectos académicos en un solo lugar</h1>
+      <p>Alumnos, docentes y coordinadores colaboran con tareas, evidencias, entregas y reportes en tiempo real.</p>
+      <div class="stats">
+        <div><strong>3</strong><span>Roles</span></div>
+        <div><strong>100%</strong><span>En línea</span></div>
+        <div><strong>24/7</strong><span>Disponible</span></div>
+      </div>
+    </div>
+
+    <form class="login" id="login">
+      <h2>Iniciar sesión</h2>
+      <p class="sub">Ingresa con tu cuenta institucional</p>
+
+      <label for="usuario">Correo o matrícula</label>
+      <input type="text" id="usuario" placeholder="20251008@uthh.edu.mx">
+
+      <label for="password">Contraseña</label>
+      <input type="password" id="password" placeholder="••••••••••">
+
+      <div class="fila">
+        <label class="check"><input type="checkbox"> Recordarme</label>
+        <a href="#">¿Olvidaste tu contraseña?</a>
+      </div>
+
+      <button type="submit" class="btn btn-morado">Entrar</button>
+
+      <p class="registro">¿Aún no tienes cuenta? <a href="registro.html">Regístrate</a></p>
+      <p class="legal">Al continuar aceptas los <a href="#">Términos y condiciones</a> y la <a href="#">Política de privacidad</a>.</p>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <img class="logo" src="assets/img/logo-completo-blanco.png" alt="SAPIENS">
+        <p>Plataforma web para el seguimiento de proyectos, tareas y entregas académicas.</p>
+      </div>
+      <div>
+        <h3>Plataforma</h3>
+        <a href="#">Proyectos</a>
+        <a href="#">Tareas y evidencias</a>
+        <a href="#">Entregas</a>
+        <a href="#">Reportes</a>
+      </div>
+      <div>
+        <h3>Soporte</h3>
+        <a href="#ayuda">Centro de ayuda</a>
+        <a href="#">Guía por rol</a>
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Contacto</a>
+      </div>
+      <div>
+        <h3>Legal</h3>
+        <a href="#">Política de privacidad</a>
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Aviso de cookies</a>
+        <a href="#">Protección de datos</a>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <a href="mailto:contacto@sapiens.com">contacto@sapiens.com</a>
+        <a>Huejutla de Reyes, Hidalgo</a>
+      </div>
+    </div>
+    <div class="footer-fin">
+      <span>© 2026 SAPIENS · Desarrollado por Said. Todos los derechos reservados.</span>
+      <span>v1.0.0</span>
+    </div>
+  </footer>
+
+</body>
+</html>
