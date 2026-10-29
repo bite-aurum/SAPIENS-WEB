@@ -188,3 +188,8 @@ summary {
 }
 details p { margin-top: 10px; }
 details a { color: var(--morado); font-weight: 600; }
+.mensaje { margin-bottom: 14px; font-size: 14px; font-weight: 600; }
+.mensaje.ok { color: #16a34a; }
+.mensaje.error { color: #dc2626; }
+
+.nav a.activo { color: var(--morado); }
