@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarme | SAPIENS</title>
+  <link rel="icon" href="assets/img/isotipo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;1,600;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- HEADER (igual en todas las páginas) -->
+  <header class="header">
+    <a href="index.html"><img class="logo" src="assets/img/logo-completo.png" alt="SAPIENS"></a>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="acerca.html">Acerca de SAPIENS</a>
+      <a href="roles.html">Roles</a>
+      <a href="ayuda.html">Ayuda</a>
+    </nav>
+    <div class="botones">
+      <a href="index.html#login" class="btn btn-claro">Iniciar sesión</a>
+      <a href="registro.html" class="btn btn-morado">Registrarse</a>
+    </div>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main class="registro-fondo">
+    <form class="login">
+      <h2>Crear cuenta</h2>
+      <p class="sub">Llena tus datos para registrarte</p>
+
+      <label for="rol">Soy</label>
+      <select id="rol">
+        <option>Alumno</option>
+        <option>Docente</option>
+        <option>Coordinador</option>
+      </select>
+
+      <label for="nombre">Nombre completo</label>
+      <input type="text" id="nombre" placeholder="Tu nombre">
+
+      <label for="correo">Correo institucional</label>
+      <input type="text" id="correo" placeholder="20251008@uthh.edu.mx">
+
+      <label for="pass">Contraseña</label>
+      <input type="password" id="pass" placeholder="••••••••••">
+
+      <label for="pass2">Confirmar contraseña</label>
+      <input type="password" id="pass2" placeholder="••••••••••">
+
+      <button type="submit" class="btn btn-morado">Registrarme</button>
+
+      <p class="registro">¿Ya tienes cuenta? <a href="index.html#login">Inicia sesión</a></p>
+    </form>
+  </main>
+
+  <!-- FOOTER (igual en todas las páginas) -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <img class="logo" src="assets/img/logo-completo-blanco.png" alt="SAPIENS">
+        <p>Plataforma web para el seguimiento de proyectos, tareas y entregas académicas.</p>
+      </div>
+      <div>
+        <h3>Plataforma</h3>
+        <a href="#">Proyectos</a>
+        <a href="#">Tareas y evidencias</a>
+        <a href="#">Entregas</a>
+        <a href="#">Reportes</a>
+      </div>
+      <div>
+        <h3>Soporte</h3>
+        <a href="ayuda.html">Centro de ayuda</a>
+        <a href="#">Guía por rol</a>
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Contacto</a>
+      </div>
+      <div>
+        <h3>Legal</h3>
+        <a href="#">Política de privacidad</a>
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Aviso de cookies</a>
+        <a href="#">Protección de datos</a>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <a href="mailto:contacto@sapiens.com">contacto@sapiens.com</a>
+        <a>Huejutla de Reyes, Hidalgo</a>
+      </div>
+    </div>
+    <div class="footer-fin">
+      <span>© 2026 SAPIENS · Desarrollado por Said. Todos los derechos reservados.</span>
+      <span>v1.0.0</span>
+    </div>
+  </footer>
+
+</body>
+</html>
