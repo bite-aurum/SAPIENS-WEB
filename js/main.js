@@ -32,3 +32,24 @@ preguntas.forEach(function (pregunta) {
     }
   });
 });
+
+const formRegistro = document.getElementById("form-registro");
+
+if (formRegistro) {
+  formRegistro.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const nombre = document.getElementById("nombre").value.trim();
+    const correo = document.getElementById("correo").value.trim();
+    const pass = document.getElementById("pass").value;
+    const pass2 = document.getElementById("pass2").value;
+
+    if (nombre === "" || correo === "" || pass === "" || pass2 === "") {
+      mostrarMensaje("Llena todos los campos", false);
+    } else if (pass !== pass2) {
+      mostrarMensaje("Las contraseñas no coinciden", false);
+    } else {
+      mostrarMensaje("Registro exitoso", true);
+    }
+  });
+}
